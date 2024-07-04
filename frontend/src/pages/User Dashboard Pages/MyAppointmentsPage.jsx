@@ -39,18 +39,18 @@ const MyAppointmentsPage = () => {
     <div className="h-screen w-full p-4 md:p-10 flex flex-col items-center bg-gray-1">
       <div className="w-full my-8 flex flex-col md:flex-row items-center bg-white border-[1px] border-gray-2 rounded-2xl md:px-10 py-3">
         <div className="flex flex-row items-center">
-          <h1 className="text-sm md:text-xl">Hello <span className="font-medium">{userProfile.Name}!!</span></h1>
+          <h1 className="text-sm md:text-xl font-leagueSpartanRegular">Hello <span className="font-leagueSpartanMedium">{userProfile.Name}!!</span></h1>
           <span className="ml-4 border-[1px] border-l-gray-500 h-6"></span> {/* Vertical Line */}
           <div className="flex justify-center items-center">
             <span className="text-md ml-4"><BsCalendar2Event /></span>
-            <p className="text-[10px] md:text-sm ml-1">My Appointments</p>
+            <p className="text-[10px] md:text-sm ml-1 font-leagueSpartanMedium">My Appointments</p>
           </div>
         </div>
       </div>
 
       { appointmentDetails.length !== 0 ? (
         <>
-          <div className="w-full h-full md:h-3/6 overflow-auto scrollbar">
+          <div className="w-full h-full md:h-3/6 overflow-auto scrollbar font-leagueSpartanRegular">
             {appointmentDetails.map((appointment, index) => (
               <div key={index} className='mb-5 p-6 px-5 rounded-2xl border-[1px] border-gray-2 bg-white shadow-md'>
                 <div className='w-full flex'>
@@ -87,7 +87,7 @@ const MyAppointmentsPage = () => {
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#507E4D" className="bi bi-telephone-fill" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
                       </svg>
-                      <p className='hidden md:block text-green-4 text-sm ml-2'>Contact for any queries</p>
+                      <p className='hidden md:block text-green-4 text-sm ml-2 font-leagueSpartanMedium'>Contact for any queries</p>
                     </button>
                   </div>
                   {/* <div className='w-1/4 px-6'>
@@ -106,8 +106,8 @@ const MyAppointmentsPage = () => {
             ))}
           </div>
 
-          <div className="w-full bg-white rounded-2xl border-[1px] border-gray-2 my-6 md:my-20 p-2 px-4 md:p-4 shadow-md">
-            <p className='my-2 font-medium text-sm md:text-base'>Instructions:</p>
+          <div className="w-full bg-white rounded-2xl border-[1px] border-gray-2 my-6 md:my-20 p-2 px-4 md:p-4 shadow-md font-leagueSpartanLight">
+            <p className='my-2 font-medium text-sm md:text-base font-leagueSpartanRegular'>Instructions:</p>
             <p className='my-2 text-[10px] md:text-sm'>Your privacy is important to us. We guarantee that your username and personal information will be kept confidential and will not be shared with any third parties. Feel safe knowing your data is secure.</p>
           </div>
         </>

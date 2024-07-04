@@ -14,7 +14,7 @@ const ClassUpdatesPage = () => {
   const [upcomingClasses, setUpcomingClasses] = useState([]);
 
   return (
-    <div className='min-h-screen w-full bg-gray-1 flex flex-col justify-center items-center px-8 py-4'>
+    <div className='font-leagueSpartanRegular min-h-screen w-full bg-gray-1 flex flex-col justify-center items-center px-8 py-4'>
       <div className='flex flex-row items-center mb-10 w-full'>
         <h1 className="text-md md:text-xl lg:text-2xl">Hello <span className="font-medium">Admin!!</span></h1>
         

@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const CautionBox = ({handleCancel}) => {
   return (
-    <div className="h-screen fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-[60]">
+    <div className="font-leagueSpartanRegular h-screen fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-[60]">
       <div className="w-[400px] bg-red-500 p-8 rounded-2xl shadow-lg">
         <h2 className="text-2xl mb-4 text-white">Caution</h2>
         <p className="mb-4 text-white">Are you sure to, reshedule, this may lead to bad brand publicity, try to avoid resheduling</p>

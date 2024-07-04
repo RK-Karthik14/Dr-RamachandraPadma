@@ -28,7 +28,7 @@ const PaymentItem = ({ payment }) => (
           <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/>
           <path d="M2 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5m3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5"/>
         </svg>
-        Transaction ID: <span className="ml-1 font-medium">{payment.TransactionId}</span>
+        Transaction ID: <span className="ml-1 font-leagueSpartanRegular">{payment.TransactionId}</span>
       </p>
     </div>
   </div>
@@ -40,7 +40,7 @@ const NoData = () => (
       <path d="M6.854 7.146a.5.5 0 1 0-.708.708L7.293 9l-1.147 1.146a.5.5 0 0 0 .708.708L8 9.707l1.146 1.147a.5.5 0 0 0 .708-.708L8.707 9l1.147-1.146a.5.5 0 0 0-.708-.708L8 8.293z" />
       <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
     </svg>
-    <p className="text-2xl my-4 text-gray-500">No data to show</p>
+    <p className="text-2xl my-4 text-gray-500 font-leagueSpartanRegular">No data to show</p>
   </div>
 );
 
@@ -49,24 +49,24 @@ const MyPaymentsPage = () => {
     <div className="h-screen w-full p-4 md:p-6 flex flex-col items-center bg-gray-100">
       <div className="w-full my-8 flex flex-col md:flex-row items-center bg-white border border-gray-200 rounded-2xl md:px-10 py-3">
         <div className="flex items-center">
-          <h1 className="text-sm md:text-xl">Hello <span className="font-medium">{userProfile.Name}!!</span></h1>
+          <h1 className="text-sm md:text-xl font-leagueSpartanRegular">Hello <span className="font-leagueSpartanMedium">{userProfile.Name}!!</span></h1>
           <span className="ml-4 border-l border-gray-500 h-6"></span> {/* Vertical Line */}
           <div className="flex justify-center items-center ml-3">
             <span className="text-md ml-4"><MdPayment /></span>
-            <p className="text-[10px] md:text-sm ml-1">My Payments</p>
+            <p className="text-[10px] md:text-sm ml-1 font-leagueSpartanMedium">My Payments</p>
           </div>
         </div>
       </div>
 
       {paymentDetails.length !== 0 ? (
         <>
-          <div className="w-full h-full md:h-3/6 overflow-auto scrollbar">
+          <div className="w-full h-full md:h-3/6 overflow-auto scrollbar font-leagueSpartanRegular">
             {paymentDetails.map((payment, index) => (
               <PaymentItem key={index} payment={payment} />
             ))}
           </div>
-          <div className="w-full bg-white rounded-2xl border border-gray-200 my-6 md:my-20 p-2 px-4 md:p-4 shadow-md">
-            <p className="my-2 font-medium text-sm md:text-base">Instructions:</p>
+          <div className="font-leagueSpartanLight w-full bg-white rounded-2xl border border-gray-200 my-6 md:my-20 p-2 px-4 md:p-4 shadow-md">
+            <p className="my-2 font-leagueSpartanMedium text-sm md:text-base">Instructions:</p>
             <p className="my-2 text-[10px] md:text-sm">Your privacy is important to us. We guarantee that your username and personal information will be kept confidential and will not be shared with any third parties. Feel safe knowing your data is secure.</p>
           </div>
         </>

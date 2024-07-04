@@ -16,18 +16,18 @@ const MyClassesPage = () => {
     <div className="h-screen w-full p-4 md:p-6 flex flex-col items-center bg-gray-1">
       <div className="w-full my-8 flex flex-col md:flex-row items-center bg-white border-[1px] border-gray-2 rounded-2xl md:px-10 py-3">
         <div className="flex flex-row items-center">
-          <h1 className='text-sm md:text-xl'>Hello <span className="font-semibold">{userProfile.Name}!!</span></h1>
+          <h1 className='text-sm md:text-xl font-leagueSpartanRegular'>Hello <span className="font-leagueSpartanSemiBold">{userProfile.Name}!!</span></h1>
           <span className="ml-4 border-[1px] border-l-gray-500 h-6"></span> {/* Vertical Line */}
           <div className="flex justify-center items-center ml-4">
             <span className="text-md ml-4"><BsCalendar2Event /></span>
-            <p className="text-[10px] md:text-sm ml-1">My Classes</p>
+            <p className="text-[10px] md:text-sm ml-1 font-leagueSpartanRegular">My Classes</p>
           </div>
         </div>
       </div>
 
       { classDetails.length !== 0 ? (
         <>
-          <div className="w-full h-3/6 overflow-auto scrollbar">
+          <div className="w-full h-3/6 overflow-auto scrollbar font-leagueSpartanRegular">
             {classDetails.map((classItem, index) => (
               <div key={index} className={`mb-5 p-4 px-10 rounded-2xl border-[1px] border-gray-2 bg-white shadow-md`}>
                 <div className='w-full flex flex-row'>
@@ -77,8 +77,8 @@ const MyClassesPage = () => {
               </div>
             ))}
           </div>
-          <div className="w-full bg-white rounded-2xl border-[1px] border-gray-2 my-6 md:my-20 p-2 px-4 md:p-4 shadow-md">
-            <p className='my-2 font-medium text-sm md:text-base'>Instructions:</p>
+          <div className="font-leagueSpartanLight w-full bg-white rounded-2xl border-[1px] border-gray-2 my-6 md:my-20 p-2 px-4 md:p-4 shadow-md">
+            <p className='my-2 font-leagueSpartanMedium text-sm md:text-base'>Instructions:</p>
             <p className='my-2 text-[10px] md:text-sm'>Your privacy is important to us. We guarantee that your username and personal information will be kept confidential and will not be shared with any third parties. Feel safe knowing your data is secure.</p>
           </div>
         </>

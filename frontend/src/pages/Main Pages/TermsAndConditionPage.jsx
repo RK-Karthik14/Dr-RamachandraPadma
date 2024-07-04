@@ -3,10 +3,10 @@ import React from 'react';
 const TermsAndConditionPage = () => {
   return (
     <div>
-      <div className="p-8 h-full w-full bg-custom-green bg-gray-1">
+      <div className="p-8 h-full w-full bg-custom-green bg-gray-1 font-leagueSpartanLight">
         <div className="mb-10">
           <div className="mb-5">
-            <h1 className="text-2xl font-bold mb-2">Terms and Conditions (“Terms”)</h1>
+            <h1 className="text-2xl font-leagueSpartanSemiBold mb-2">Terms and Conditions (“Terms”)</h1>
             <p>
               Please read these Terms and Conditions (“Terms”, “Terms and Conditions”) carefully before using 
               the https://drramachandra.com/ website (the “Service”) operated by Health Advice For You (“us”, “we”, or “our”). 
@@ -17,14 +17,14 @@ const TermsAndConditionPage = () => {
             </p>
           </div>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Termination</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Termination</h1>
             <p>
               We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason 
               whatsoever, including without limitation if you breach the Terms.
             </p>
           </div>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Changes</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Changes</h1>
             <p>
               We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is 
               material, we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a 
@@ -34,7 +34,7 @@ const TermsAndConditionPage = () => {
             </p>
           </div>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Contact Us</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Contact Us</h1>
             <p>
               If you have any questions about these Terms, please contact us via appropriate means.
             </p>
@@ -42,15 +42,15 @@ const TermsAndConditionPage = () => {
         </div>
 
         <div className="mb-10">
-          <h1 className="text-2xl font-bold mb-2">Privacy Policy</h1>
+          <h1 className="text-2xl font-leagueSpartanSemiBold mb-2">Privacy Policy</h1>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Who we are</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Who we are</h1>
             <p>
               Our website address is: https://drramachandra.com
             </p>
           </div>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Comments</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Comments</h1>
             <p>
               When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s 
               IP address and browser user agent string to help spam detection.An anonymized string created from your email 
@@ -60,14 +60,14 @@ const TermsAndConditionPage = () => {
             </p>
           </div>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Media</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Media</h1>
             <p>
               If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. 
               Visitors to the website can download and extract any location data from images on the website.
             </p>
           </div>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Cookies</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Cookies</h1>
             <p>
               If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. 
               These are for your convenience so that you do not have to fill in your details again when you leave another 
@@ -82,7 +82,7 @@ const TermsAndConditionPage = () => {
             </p>
           </div>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Embedded content from other websites</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Embedded content from other websites</h1>
             <p>
               Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from 
               other websites behaves in the exact same way as if the visitor has visited the other website.<br/>
@@ -92,7 +92,7 @@ const TermsAndConditionPage = () => {
             </p>
           </div>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Who we share your data with</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Who we share your data with</h1>
             <p>
               If you request a password reset, your IP address will be included in the reset email.
               How long we retain your data<br/>
@@ -104,7 +104,7 @@ const TermsAndConditionPage = () => {
             </p>
           </div>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">What rights you have over your data</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">What rights you have over your data</h1>
             <p>
               If you have an account on this site, or have left comments, you can request to receive an exported file of the 
               personal data we hold about you, including any data you have provided to us. You can also request that we erase 
@@ -117,105 +117,105 @@ const TermsAndConditionPage = () => {
         </div>
 
         <div className="mb-10">
-          <h1 className='text-2xl font-bold mb-2'>Online Trainings:</h1>
+          <h1 className='text-2xl font-leagueSpartanSemiBold mb-2'>Online Trainings:</h1>
           <p class="mb-3">
             Please read these terms and conditions carefully before registering for our online workshop. By registering for the 
             workshop, you agree to be bound by these terms and conditions.
           </p>
           <div class="mb-3">
-            1. <span class="font-semibold">Payment:</span> Payment for the online workshop must be made in full at the time of registration. We accept payment 
+            1. <span class="font-leagueSpartanMedium">Payment:</span> Payment for the online workshop must be made in full at the time of registration. We accept payment 
             via multiple payment methods as acceptable by Payment Gateways, for now ‘Razorpay’.
           </div>
           <div class="mb-3">
-            2. <span class="font-semibold">Workshop Access:</span> After payment has been confirmed, you will receive access 
+            2. <span class="font-leagueSpartanMedium">Workshop Access:</span> After payment has been confirmed, you will receive access 
             to the workshop content. This access is for the registered participant only and cannot be shared with others. You 
             are responsible for ensuring that your computer and internet connection meet the necessary requirements to access 
             the workshop.
           </div>
           <div class="mb-3">
-            3. <span class="font-semibold">No Refunds:</span> We do not offer refunds for our online workshops. By registering for the 
+            3. <span class="font-leagueSpartanMedium">No Refunds:</span> We do not offer refunds for our online workshops. By registering for the 
             workshop, you agree that you will not be entitled to a refund for any reason, including but not limited to, technical 
             issues, personal conflicts, or changes in your schedule.
           </div>
           <div class="mb-3">
-            4. <span class="font-semibold">Intellectual Property:</span> All content provided in the online workshop, 
+            4. <span class="font-leagueSpartanMedium">Intellectual Property:</span> All content provided in the online workshop, 
             including but not limited to text, images, videos, and audio, is the intellectual property of DrRamachandra.com. 
             You agree not to reproduce, distribute, modify, or create derivative works based on the content without prior 
             written consent from DrRamachandra.com.
           </div>
           <div class="mb-3">
-            5. <span class="font-semibold">Disclaimer:</span> The information provided in the online workshop is for educational 
+            5. <span class="font-leagueSpartanMedium">Disclaimer:</span> The information provided in the online workshop is for educational 
             purposes only and is not intended to be a substitute for medical or professional advice. The workshop provider does 
             not guarantee the accuracy, completeness, or usefulness of the information provided. You should consult with a medical 
             professional before making any decisions based on the information provided in the workshop.
           </div>
           <div class="mb-3">
-            6. <span class="font-semibold">Illness/Injury:</span> You are aware of your physical limitations and medical history and 
+            6. <span class="font-leagueSpartanMedium">Illness/Injury:</span> You are aware of your physical limitations and medical history and 
             that your participation by accessing and availing our workshops may, in some circumstances, result in a physical injury. 
             You also undertake that you are sufficiently self-aware and would stop any physical activities before you become ill or 
             injured, physically or psychologically. You will not attribute any such illness/ injuries/loss to your health, of any 
             kind, to DrRamachandra.com or workshops offered by us.
           </div>
           <div class="mb-3">
-            7. <span class="font-semibold">No Promotions or Marketing:</span> You expressly agree to not promote and/or advertise 
+            7. <span class="font-leagueSpartanMedium">No Promotions or Marketing:</span> You expressly agree to not promote and/or advertise 
             your own business and your own WhatsApp groups either during the workshop or on the support group. Any attempt to do so 
             may result in your immediate removal from the workshop without refund.
           </div>
           <div class="mb-3">
-            8. <span class="font-semibold">Meeting in Person:</span> You here by agree that if you decide to meet any person whom you 
+            8. <span class="font-leagueSpartanMedium">Meeting in Person:</span> You here by agree that if you decide to meet any person whom you 
             may have met through the workshop provided by DrRamachandra.com, your decision to meet and/or interact with any such 
             person is solely at your own risk and DrRamachandra.com is not liable for any consequences arising thereof.
           </div>
           <div class="mb-3">
-            9. <span class="font-semibold">Non-Transferable:</span> Your registration for the online workshop is non-transferable. 
+            9. <span class="font-leagueSpartanMedium">Non-Transferable:</span> Your registration for the online workshop is non-transferable. 
             You may not sell or transfer your access to the workshop to any other person or entity.
           </div>
           <div class="mb-3">
-            10. <span class="font-semibold">Cancellation:</span> We reserve the right to cancel the online workshop at any time for 
+            10. <span class="font-leagueSpartanMedium">Cancellation:</span> We reserve the right to cancel the online workshop at any time for 
             any reason. In the event that we cancel the workshop, you will be entitled to a refund of your registration fee. However, 
             we are not responsible for any other costs or expenses you may incur as a result of the cancellation.
           </div>
           <div class="mb-3">
-            11. <span class="font-semibold">Code of Conduct:</span> We expect all participants in the online workshop to behave 
+            11. <span class="font-leagueSpartanMedium">Code of Conduct:</span> We expect all participants in the online workshop to behave 
             professionally and respectfully towards each other. Any form of harassment, discrimination, or inappropriate behavior 
             will not be tolerated and may result in your immediate removal from the workshop without refund.
           </div>
           <div class="mb-3">
-            12. <span class="font-semibold">Technical Issues:</span> While we strive to provide a seamless online workshop experience, 
+            12. <span class="font-leagueSpartanMedium">Technical Issues:</span> While we strive to provide a seamless online workshop experience, 
             technical issues may occur. We are not responsible for any technical difficulties you may encounter while accessing the 
             workshop content, and we cannot guarantee that the workshop will be uninterrupted or error-free. However, we will make 
             reasonable efforts to address any technical issues as quickly as possible.
           </div>
           <div class="mb-3">
-            13. <span class="font-semibold">Limitation of Liability:</span> In no event shall we be liable for any direct, indirect, 
+            13. <span class="font-leagueSpartanMedium">Limitation of Liability:</span> In no event shall we be liable for any direct, indirect, 
             incidental, special, or consequential damages arising out of or in connection with the online workshop, including but not 
             limited to, lost profits, lost data, or business interruption. Our total liability for any claim arising from the online 
             workshop shall not exceed the amount paid by you for the workshop.
           </div>
           <div class="mb-3">
-            14. <span class="font-semibold">Privacy Policy:</span> We respect your privacy and will not share your personal 
+            14. <span class="font-leagueSpartanMedium">Privacy Policy:</span> We respect your privacy and will not share your personal 
             information with third parties unless required by law. By registering for the online workshop, you agree to our 
             privacy policy and acknowledge that we may collect, use, and disclose your personal information as necessary to provide 
             the workshop content and for other legitimate business purposes.
           </div>
           <div class="mb-3">
-            15. <span class="font-semibold">Recording Prohibited:</span> Recording the online workshop is strictly prohibited. 
+            15. <span class="font-leagueSpartanMedium">Recording Prohibited:</span> Recording the online workshop is strictly prohibited. 
             You may not make any audio or video recordings of the workshop content without prior written consent from the workshop 
             provider.
           </div>
           <div class="mb-3">
-            16. <span class="font-semibold">Indemnification:</span> You agree to indemnify and hold harmless the workshop provider, 
+            16. <span class="font-leagueSpartanMedium">Indemnification:</span> You agree to indemnify and hold harmless the workshop provider, 
             its affiliates, and its respective officers, directors, employees, and agents from any and all claims, damages, 
             liabilities, costs, and expenses (including reasonable attorneys’ fees) arising out of or in connection with your 
             participation in the online workshop or any breach of these terms and conditions.
           </div>
           <div class="mb-3">
-            17. <span class="font-semibold">Modifications:</span> The workshop provider reserves the right to modify these terms and 
+            17. <span class="font-leagueSpartanMedium">Modifications:</span> The workshop provider reserves the right to modify these terms and 
             conditions at any time without prior notice. It is your responsibility to review these terms and conditions periodically 
             for any changes.
           </div>
           <div class="mb-4">
-            18. <span class="font-semibold">Governing Law:</span> These terms and conditions shall be governed by and construed in 
+            18. <span class="font-leagueSpartanMedium">Governing Law:</span> These terms and conditions shall be governed by and construed in 
             accordance with the laws of the government of India. Any disputes arising from or related to these terms and conditions 
             shall be resolved exclusively in the courts of Andhra Pradesh & Telangana.
           </div>
@@ -226,9 +226,9 @@ const TermsAndConditionPage = () => {
         </div>
 
         <div class="mb-10">
-          <h1 class="mb-2 text-2xl font-bold">Shipping/Delivery</h1>
+          <h1 class="mb-2 text-2xl font-leagueSpartanSemiBold">Shipping/Delivery</h1>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Shipping and Return Policy:</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Shipping and Return Policy:</h1>
             <p>
               At present we are delivering only digital content. All of videos, eBooks, PDFs if relevant to the course and 
               training will be in electronic format and are delivered electronically. We do not offer any of our material in 
@@ -242,9 +242,9 @@ const TermsAndConditionPage = () => {
         </div>
 
         <div class="mb-10">
-          <h1 class="mb-2 text-2xl font-bold">Refund & Cancellation</h1>
+          <h1 class="mb-2 text-2xl font-leagueSpartanSemiBold">Refund & Cancellation</h1>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Event or Training Cancellation Policy:</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Event or Training Cancellation Policy:</h1>
             <p>
               You must cancel your Event Participation 7 Business Days prior to Training Event for a full refund. Cancellations made 
               after the deadline will attract the full registration fee. You may opt to transfer your registration to another person 
@@ -252,7 +252,7 @@ const TermsAndConditionPage = () => {
             </p>
           </div>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Cancellation and refund policy for online courses:</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Cancellation and refund policy for online courses:</h1>
             <p>
               If you cancel the course booking within 7 calendar days of receiving your order confirmation and before the start
                of the course without giving any reason, you are entitled to a full refund of the price paid.
@@ -266,7 +266,7 @@ const TermsAndConditionPage = () => {
             </p>
           </div>
           <div className="mb-5">
-            <h1 className="text-lg font-semibold mb-2">Cancellation by Us:</h1>
+            <h1 className="text-lg font-leagueSpartanMedium mb-2">Cancellation by Us:</h1>
             <p>
               Whilst every effort is made to avoid changes to our program, we reserves the right to withdraw or cancel any course. 
               If for any reason we cancel a course, all course fees will be returned in full.

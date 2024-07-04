@@ -26,7 +26,7 @@ const Sidebar = () => {
   return (
     <>
       <aside className="lg:static transition-all duration-300 bg-gray-1 min-h-screen">
-        <div className={`fixed md:static md:h-full lg:flex flex-col justify-start items-start text-white bg-green-4 p-2 md:p-10 ${isExpanded ? "w-80 absolute lg:static h-full" : "w-6 hover:w-12 md:w-20 md:hover:20 static rounded-br-2xl rounded-tr-2xl"} md:rounded-none mb-2 transition-all duration-300`}>
+        <div className={`font-leagueSpartanRegular fixed md:static md:h-full lg:flex flex-col justify-start items-start text-white bg-green-4 p-2 md:p-10 ${isExpanded ? "w-80 absolute lg:static h-full" : "w-6 hover:w-12 md:w-20 md:hover:20 static rounded-br-2xl rounded-tr-2xl"} md:rounded-none mb-2 transition-all duration-300`}>
           <div className={`w-full flex justify-end ${isExpanded ? "" : "md:ml-6"}`}>
             <button onClick={toggleSidebar} className="bg-green-3 p-2 md:p-3 rounded-full hover:bg-green-2 transition-all duration-300">
               {isExpanded ? (
@@ -174,7 +174,7 @@ const Sidebar = () => {
           </div>
           {isExpanded && (
             <div className="w-full flex flex-col justify-end flex-grow pb-16">
-              <p className="text-gray-200 font-thin text-xl ml-[25%]">Version 1.0</p>
+              <p className="text-gray-200 font-thin text-xl ml-[25%] font-leagueSpartanExtrsLight">Version 1.0</p>
             </div>
           )}
         </div>

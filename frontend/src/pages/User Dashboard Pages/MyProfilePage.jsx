@@ -48,7 +48,7 @@ const MyProfilePage = () => {
     <div className="h-screen w-full p-6 flex justify-center items-center bg-gray-1">
       <div className="w-full">
         <div className="flex flex-row items-center mb-10 bg-white rounded-2xl px-6 py-3 border-[1px] border-gray-2">
-          <h1 className="text-sm md:text-xl">Hello <span className="font-medium">User!!</span></h1>
+          <h1 className="text-sm md:text-xl font-leagueSpartanRegular">Hello <span className="font-leagueSpartanMedium">User!!</span></h1>
           
           {/* Vertical Line */}
           <span className="ml-4 border-[1px] border-l-gray-500 h-6"></span>
@@ -59,15 +59,15 @@ const MyProfilePage = () => {
                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
               </svg>
             </span>
-            <p className="text-xs md:text-sm ml-1">Profile</p>
+            <p className="text-xs md:text-sm ml-1 font-leagueSpartanRegular">Profile</p>
           </div>
         </div>
 
-        <div className='mb-8 lg:mb-16 rounded-2xl bg-white shadow-md pb-4'>
+        <div className='mb-8 lg:mb-16 rounded-2xl bg-white shadow-md pb-4 font-leagueSpartanRegular'>
           <div className="w-full border-b-[1px] border-red-1 p-4 px-6 md:px-8">
             <div className='flex items-center'>
               <span className="text-green-4 text-xl md:text-2xl"><BsFillPersonVcardFill /></span>
-              <span className='ml-2 text-base md:text-lg'>Personal Information</span>
+              <span className='ml-2 text-base md:text-lg font-leagueSpartanMedium'>Personal Information</span>
             </div>
           </div>
           <div className="w-full border-b-[1px] border-red-1 p-4 px-6 md:px-8">
@@ -126,8 +126,8 @@ const MyProfilePage = () => {
         </div>
 
         <div className="shadow-md bg-white rounded-2xl border-[1px] border-custom-red p-4 px-6 lg:px-8">
-          <p className="font-medium mb-2 text-sm md:text-base">Note:</p>
-          <p className='text-xs md:text-sm'>
+          <p className="font-leagueSpartanMedium mb-2 text-sm md:text-base">Note:</p>
+          <p className='text-xs md:text-sm font-leagueSpartanLight'>
             Your privacy is important to us. We guarantee that your username and personal information will be kept 
             confidential and will not be shared with any third parties. Feel safe knowing your data is secure.
           </p>

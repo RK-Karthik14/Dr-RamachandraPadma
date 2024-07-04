@@ -10,38 +10,38 @@ const UserLogin = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-[#F2F2F2]">
       <div className="bg-white shadow-2xl rounded-2xl p-12 w-full max-w-lg">
-        <h2 className="text-3xl font-bold text-center mb-8 text-green-600">Login</h2>
+        <h2 className="text-3xl font-leagueSpartanMedium text-center mb-8 text-green-600">Login</h2>
         <form onSubmit={handleSubmit(loginData)} className="space-y-6">
           <div className="space-y-2">
-            <label className="block text-gray-700 font-medium mb-1" htmlFor="phoneNumber">
+            <label className="block text-gray-700 font-medium mb-1 font-leagueSpartanRegular" htmlFor="phoneNumber">
               Phone number
             </label>
             <Input
               type="number"
               placeholder="Enter your Mobile Number"
-              className="border-[1px] border-gray-300 w-full h-12 rounded-lg px-3"
+              className="border-[1px] border-gray-300 w-full h-12 rounded-lg px-3 font-leagueSpartanRegular"
               {...register("phoneNumber", { required: true })}
             />
           </div>
           
           <div className="space-y-2">
-            <label className="block text-gray-700 font-medium mb-1" htmlFor="password">
+            <label className="block text-gray-700 font-medium mb-1 font-leagueSpartanRegular" htmlFor="password">
               Password*
             </label>
             <Input
               type="password"
               placeholder="Enter your Password"
-              className="border-[1px] border-gray-300 w-full h-12 rounded-lg px-3"
+              className="border-[1px] border-gray-300 w-full h-12 rounded-lg px-3 font-leagueSpartanRegular"
               {...register("password", { required: true, minLength: 6 })}
             />
           </div>
           
           <div className="flex justify-between">
-            <a href="#" className="text-blue-500 hover:underline">Register as a new user?</a>
-            <a href="#" className="text-blue-500 hover:underline">Forgot Password?</a>
+            <a href="#" className="text-blue-500 hover:underline font-leagueSpartanMedium">Register as a new user?</a>
+            <a href="#" className="text-blue-500 hover:underline font-leagueSpartanMedium">Forgot Password?</a>
           </div>
           
-          <CommonButton className="w-full bg-green-500 text-white font-bold py-3 px-4 rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-opacity-50 transition duration-300 ease-in-out">
+          <CommonButton className="w-full bg-green-500 text-white font-bold py-3 px-4 rounded-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-700 focus:ring-opacity-50 transition duration-300 ease-in-out font-leagueSpartanRegular">
             Login
           </CommonButton>
         </form>

@@ -76,11 +76,11 @@ const ClassPage = () => {
     <div className="w-full h-auto mb-10 bg-white">
       <div className="p-4 md:p-10 w-full flex flex-col md:flex-row justify-around items-center">
         <div className="w-full text-center md:w-1/2 md:text-start mb-10 md:my-0 pl-4">
-          <p className='text-amber-900 font-bold text-[25px] md:text-4xl'>డా.రామచంద్ర’s</p>
-          <h1 className="text-green-4 font-bold text-[40px] md:text-[80px] mb-2 leading-tight">
+          <p className='text-amber-900 font-gurajadaRegular text-[25px] md:text-[64px]'>డా.రామచంద్ర’s</p>
+          <h1 className="text-green-4 font-leagueSpartanSemiBold text-[40px] md:text-[96px] mb-2 leading-tight">
             Naturopathy Workshop
           </h1>
-          <p className="text-red-400 text-base md:text-lg w-full md:w-4/5">
+          <p className="text-red-400 text-base md:text-[24px] w-full md:w-4/5 font-leagueSpartanExtrsLight">
             Explore a variety of holistic classes, from yoga to herbal
             remedies, and effortlessly reserve your spot.
           </p>
@@ -91,7 +91,7 @@ const ClassPage = () => {
       </div>
 
       <div className="my-8 text-center p-6">
-        <p className="text-[48px] text-[#194D2E] font-semibold">
+        <p className="text-[48px] text-[#194D2E] font-gurajadaRegular">
           21 రోజుల ప్రకృతే వైద్యుడు వర్కషాప్ 22th May 2024 నుంచి ప్రారంభం
         </p>
       </div>
@@ -112,12 +112,12 @@ const ClassPage = () => {
                 className="rounded-2xl sm:w-[300px] sm:h-[154px] md:w-[360px] md:h-[205px] lg:w-[600] lg:h-[268px] "
               ></iframe>
             </div>
-            <p className="text-white text-base md:text-lg my-2 text-center">
+            <p className="text-white text-base md:text-lg my-2 text-center font-leagueSpartanSemiBold">
               Online Classes Preview
             </p>
           </div>
           <div className="w-full md:w-3/5 text-white md:pr-8">
-            <p className="text-center mb-6">
+            <p className="text-center mb-6 font-tenaliRamaKrishnaRegular">
               ప్రస్తుత ప్రపంచానికి అసాధ్యం అనిపించే అనారోగ్య సమస్యల సైతం ఇంటి
               వద్దనే ఎలా తేలికగా తగ్గుతాయో అందరికీ అర్థం అయ్యేలా చెప్పిన, తెలుగు
               జాతికి సుపరిచితులయిన, ఎన్నో లక్షల మందిని ప్రత్యక్షంగా, యూట్యూబ్,
@@ -127,7 +127,7 @@ const ClassPage = () => {
               విధానంపై శిక్షణా కార్యక్రమాలు.
             </p>
 
-            <p className="text-center">
+            <p className="text-center font-leagueSpartanRegular">
               Online trainings on Naturopathic lifestyle that changes everything. An
               ancient knowledge with modern scientific approach that healed lakhs of
               people from uncurable ailments, by Dr. Padma & Dr. Ramachandra ("Dr. APJ
@@ -137,7 +137,7 @@ const ClassPage = () => {
         </div>
 
         <div className="w-full mt-6">
-          <p className="text-center font-medium text-2xl">Book Your Seat</p>
+          <p className="text-center font-leagueSpartanSemiBold text-[48px]">Book Your Seat</p>
         </div>
         <form onSubmit={handleSubmit} className="w-full">
           <div className="w-full my-4 flex flex-col justify-center items-center md:block">
@@ -187,7 +187,7 @@ const ClassPage = () => {
           </div>
 
           <div className="p-6 mt-6 pl-44 pr-44">
-            <p className="font-medium mb-2 flex">
+            <p className="font-leagueSpartanRegular mb-2 flex">
               గమనిక: You will get updates on your WhatsApp number. పైన మీ వాట్సాప్
               ఫోన్ నంబరు సరిగ్గా ఎంటర్ చేయకపోతే ట్రైనింగ్ లో పాల్గొనలేరు.
             </p>
@@ -198,15 +198,15 @@ const ClassPage = () => {
                 id="checkbox"
                 className="mr-2"
               />
-              <label htmlFor="checkbox" className="mt-6 text-white text-xs md:text-base">
+              <label htmlFor="checkbox" className="mt-6 text-white text-xs md:text-base font-leagueSpartanRegular">
                 I agree and accept the payment ‘terms and conditions’. & I understand
                 that this training is NOT a substitute for the consultation, diagnosis,
                 and/or medical treatment. *
               </label>
             </div>
 
-            <p className="text-sm my-6">
-              <span className="font-medium text-lg">
+            <p className="text-sm my-6 font-leagueSpartanRegular">
+              <span className="font-leagueSpartanSemiBold text-lg">
                 Important Note About Registrations:
               </span>
               <br />
@@ -219,7 +219,7 @@ const ClassPage = () => {
           <div className="flex justify-center mt-6">
             <button
               type="submit"
-              className="bg-white text-green-4 p-2 px-4 w-44 rounded-lg font-medium"
+              className="bg-white text-green-4 p-2 px-4 w-44 rounded-lg font-leagueSpartanSemiBold"
             >
               Pay Now
             </button>

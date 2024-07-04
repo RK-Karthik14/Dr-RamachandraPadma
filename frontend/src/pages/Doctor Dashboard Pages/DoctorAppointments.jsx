@@ -118,7 +118,7 @@ const DoctorAppointments = () => {
   }
 
   return (
-    <div className='min-h-screen bg-gray-1 p-8 flex flex-col md:flex-row'>
+    <div className='min-h-screen bg-gray-1 p-8 flex flex-col md:flex-row font-leagueSpartanRegular'>
       <div className='w-full lg:w-9/12 flex flex-col justify-center items-center'>
       <div className='w-full flex justify-between'>
         <div className='flex flex-row items-center'>

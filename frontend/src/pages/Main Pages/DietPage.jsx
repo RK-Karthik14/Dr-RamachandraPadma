@@ -36,9 +36,9 @@ const DietPage = () => {
       <div className='h-auto w-full p-6 md:my-10 bg-white'>
         <div className='p-4 md:p-10 w-full flex flex-col md:flex-row justify-around items-center md:my-6'>
           <div className='w-full text-center md:w-1/2 md:text-start mb-10 md:my-0 pl-4'>
-            <p className='text-amber-900 font-bold text-[20px] md:text-[25px] lg:text-4xl'>డా.రామచంద్ర’s</p>
-            <h1 className='text-green-4 font-bold text-[30px] md:text-[40px] lg:text-[80px] mb-2 leading-tight'>Nutritional program</h1>
-            <p className='text-red-400 text-base md:text-lg w-full md:w-4/5'>
+            <p className='text-amber-900 font-gurajadaRegular text-[20px] md:text-[64px] lg:text-4xl'>డా.రామచంద్ర’s</p>
+            <h1 className='text-green-4 font-leagueSpartanSemiBold text-[30px] md:text-[96px] lg:text-[80px] mb-2 leading-tight'>Nutritional program</h1>
+            <p className='text-red-400 text-base md:text-[24px] w-full md:w-4/5 font-leagueSpartanExtrsLight'>
               By emphasizing nutrient-dense fruits, vegetables, whole grains, and lean proteins, 
               a naturopathic diet supports the body's innate ability to heal and 
               maintain balance.
@@ -51,77 +51,79 @@ const DietPage = () => {
 
         <div className='flex flex-col justify-center items-center w-full'>
           <div>
-            <p className='text-green-800 font-semibold text-lg'>ఆహార ప్రణాళిక</p>
+            <p className='text-green-800 font-gurajadaRegular text-[48px]'>ఆహార ప్రణాళిక</p>
           </div>
 
           <div className='hidden md:block w-full'>
             <div className='grid grid-cols-2 md:grid-cols-3'>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#5D915A] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={dietCard1} className='w-56'/>
               </div>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#5D915A] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={dietCard1} className='w-56'/>
               </div>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#5D915A] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={dietCard1} className='w-56'/>
               </div>
             </div>
             <div className='grid grid-cols-4'>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#5D915A] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={dietCard1} className='w-56'/>
               </div>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#5D915A] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={dietCard1} className='w-56'/>
               </div>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#FDECCE] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={dietCard1} className='w-56'/>
               </div>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#FDECCE] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={dietCard1} className='w-56'/>
               </div>
             </div>
           </div>
 
           <div className='md:hidden w-full'>
-            <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+            <div className='bg-[#5D915A] p-4 rounded-2xl m-4 flex justify-center'>
               <img src={nutriImg} className='w-56'/>
             </div>
             <div className='grid grid-cols-2'>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#5D915A] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={nutriImg} className='w-56'/>
               </div>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#5D915A] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={nutriImg} className='w-56'/>
               </div>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#5D915A] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={nutriImg} className='w-56'/>
               </div>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#5D915A] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={nutriImg} className='w-56'/>
               </div>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#FDECCE] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={nutriImg} className='w-56'/>
               </div>
-              <div className='bg-green-200 p-4 rounded-2xl m-4 flex justify-center'>
+              <div className='bg-[#FDECCE] p-4 rounded-2xl m-4 flex justify-center'>
                 <img src={nutriImg} className='w-56'/>
               </div>
             </div>
           </div>
-          <p className='text-red-400 font-semibold mt-4'>
-            గమనిక:<br/>1.దీర్ఘకాలిక లేదా తీవ్ర ఆరోగ్య సమస్యలు అనగా…కిడ్నీ, 
-            లివర్, క్యాన్సర్ మొదలగు సమస్యలు ఉన్న వారు డాక్టర్ గారి సలహా మేరకు మాత్రమే ఈ ఆహార నియమాలు 
-            పాటించాలి.<br/>2.డయాబెటిక్ వాళ్ళు జ్యూస్ లో తేనె వాడరాదు.
-          </p>
+          
         </div>
+
+        <p className='text-red-400 font-tenaliRamaKrishnaRegular mt-4 ml-4'>
+          <span className='font-gurajadaRegular'>గమనిక:</span><br/>1.దీర్ఘకాలిక లేదా తీవ్ర ఆరోగ్య సమస్యలు అనగా…కిడ్నీ, 
+          లివర్, క్యాన్సర్ మొదలగు సమస్యలు ఉన్న వారు డాక్టర్ గారి సలహా మేరకు మాత్రమే ఈ ఆహార నియమాలు 
+          పాటించాలి.<br/>2.డయాబెటిక్ వాళ్ళు జ్యూస్ లో తేనె వాడరాదు.
+        </p>
       </div>
       
       <div className='relative flex flex-col justify-center items-center mt-20 overflow-hidden'>
-        <h1 className='text-lg md:text-2xl text-green-3 font-semibold my-5'>ఆహార ప్రణాళిక</h1>
+        <h1 className='text-lg md:text-2xl text-green-3 font-gurajadaRegular my-5'>ఆహార ప్రణాళిక</h1>
         <div className='md:p-4'>
           <div className='rounded-2xl md:p-8 text-black flex justify-center'>
             <img src={banana} className='hidden md:block w-36 md:w-48 absolute -z-10 top-[70px] -left-20 -rotate-12'/>
             <img src={orange} className='hidden md:block w-32 md:w-48 absolute -z-10 top-5 -right-20'/>
-            <p className='text-sm md:text-base text-center'>
+            <p className='text-sm md:text-base text-center font-tenaliRamaKrishnaRegular'>
               బ్రేక్ ఫాస్ట్ (టిఫిన్) తినటానికి 30 నిమిషాలకు ముందు క్రింది జ్యూస్ త్రాగాలి. 
               <span className='hidden md:block'>ప్రతిరోజు ఇదే జ్యూస్. డాక్టర్ గారు ఈ జ్యూసుకి అదనంగా మీ సమస్య పరిష్కారం కోసం ప్రత్యేకంగా ఏదైనా కలుపుకుని జూస్ చేసుకోమంటే అలాగే చేయండి.</span>
             </p>
@@ -131,15 +133,15 @@ const DietPage = () => {
 
       <div className='relative mb-10 overflow-hidden'>
         <div className='p-2 md:p-6 flex flex-col'>
-          <h1 className='text-lg text-green-600 font-semibold my-5 text-center'>Recipes</h1>
+          {/* <h1 className='text-lg text-green-600 font-semibold my-5 text-center'>Recipes</h1> */}
           <div className='w-full flex justify-evenly my-2'>
-            <button className={`p-4 rounded-lg w-1/2 m-2 border-[1px] border-white ${dietType === 'liquid' ? 'bg-green-4 font-medium text-white border-none' : 'text-red-500 font-medium hover:border-yellow-500'}`} onClick={handleDiet1}>Liquids</button>
-            <button className={`p-4 rounded-lg w-1/2 m-2 border-[1px] border-white ${dietType === 'solid' ? 'bg-green-4 font-medium text-white border-none' : 'text-red-500 font-medium hover:border-yellow-500'}`} onClick={handleDiet2}>Solids</button>
+            <button className={`p-4 rounded-lg w-1/2 m-2 border-[1px] border-white ${dietType === 'liquid' ? 'bg-green-4 font-leagueSpartanSemiBold text-white border-none' : 'text-red-500 font-leagueSpartanSemiBold hover:border-yellow-500'}`} onClick={handleDiet1}>Liquids</button>
+            <button className={`p-4 rounded-lg w-1/2 m-2 border-[1px] border-white ${dietType === 'solid' ? 'bg-green-4 font-leagueSpartanSemiBold text-white border-none' : 'text-red-500 font-leagueSpartanSemiBold hover:border-yellow-500'}`} onClick={handleDiet2}>Solids</button>
           </div>
           { dietType === 'liquid' ? (
             <>
               <div className='p-2 md:p-6'>
-                <p className='text-sm md:text-base ml-2 md:ml-0'>
+                <p className='text-sm md:text-base ml-2 md:ml-0 font-tenaliRamaKrishnaRegular'>
                   <span className='leading-loose'>
                     1. సూర్యోదయానికి ముందే నిద్ర లేవండి (సుమారుగా 5am). లేచిన వెంటనే రెండు గ్లాసుల మంచినీళ్లు తాగండి. 
                     ఒక గంట విడిచి మళ్లీ రెండు గ్లాసుల మంచినీళ్లు తాగండి. 5-8am లోపు కాలకృత్యాలు ముగించి, వ్యాయామం, 
@@ -176,8 +178,8 @@ const DietPage = () => {
                   <br/>
                 </p>
                 <br/>
-                <p className='text-sm mt-6 ml-2 md:ml-0'>
-                  <span className='font-semibold text-lg leading-loose'>ఉదయం జ్యూస్:</span><br/>
+                <p className='text-sm mt-6 ml-2 md:ml-0 font-tenaliRamaKrishnaRegular'>
+                  <span className='font-suravaramRegular text-lg leading-loose'>ఉదయం జ్యూస్:</span><br/>
                   బ్రేక్ ఫాస్ట్ (టిఫిన్) తినటానికి 30 నిమిషాలకు ముందు క్రింది జ్యూస్ త్రాగాలి. ప్రతిరోజు ఇదే జ్యూస్. 
                   డాక్టర్ గారు ఈ జ్యూసుకి అదనంగా మీ సమస్య పరిష్కారం కోసం ప్రత్యేకంగా ఏదైనా కలుపుకుని జూస్ చేసుకోమంటే అలాగే చేయండి.
                 </p>
@@ -422,8 +424,8 @@ const DietPage = () => {
                       />
                       
                   </div>
-                  <p className='text-sm my-10 ml-2 md:ml-0'>
-                    <span className='font-semibold text-lg'>గమనిక:</span><br/>
+                  <p className='text-sm my-10 ml-2 md:ml-0 font-tenaliRamaKrishnaRegular'>
+                    <span className='font-gurajadaRegular text-lg'>గమనిక:</span><br/>
                     <span className='leading-loose'>
                       1.ఒక గ్లాస్ జ్యూస్ కి అన్నీ రకాల ఆకులు కలిపి గుప్పెడు పరిమాణంలో సరిపోతాయి.
                     </span>
@@ -458,18 +460,18 @@ const DietPage = () => {
             </>
           ) : (
             <div className='p-6'>
-              <p>
-                <span className='font-medium text-lg'>Apples</span><br/>
+              <p className='font-leagueSpartanRegular'>
+                <span className='font-leagueSpartanMedium text-lg'>Apples</span><br/>
                 Description: Apples are one of the most popular and versatile fruits available. They come in a variety of colors, including red, green, and yellow, and range from sweet to tart in flavor. Apples are rich in dietary fiber, particularly pectin, which aids in digestion and promotes gut health.<br/>
                 Nutritional Benefits: High in vitamin C, fiber, and antioxidants. They help in regulating blood sugar levels and are good for heart health.<br/>
                 Usage: Can be eaten raw, added to salads, or cooked in various dishes like apple pies and sauces.<br/><br/>
-                <span className='font-medium text-lg'>Bananas</span><br/>
+                <span className='font-leagueSpartanMedium text-lg'>Bananas</span><br/>
                 Description: Bananas are a tropical fruit with a creamy texture and sweet flavor. They are well-known for their high potassium content, which is essential for maintaining proper muscle function and heart health.<br/>
                 Nutritional Benefits: Rich in potassium, vitamin B6, vitamin C, and dietary fiber. Bananas provide a quick energy boost and help in maintaining electrolyte balance.<br/>
                 Usage: Perfect as a quick snack, added to smoothies, cereals, and baked goods.
                 Berries<br/>
                 <br/>
-                <span className='font-medium text-lg'>Strawberries</span><br/>
+                <span className='font-leagueSpartanMedium text-lg'>Strawberries</span><br/>
                 Description: Strawberries are bright red, juicy, and sweet. They are rich in vitamins, antioxidants, and are low in calories.<br/>
                 Nutritional Benefits: High in vitamin C, manganese, and antioxidants such as anthocyanins and ellagic acid. Strawberries promote heart health and help regulate blood sugar.<br/>
                 Usage: Can be eaten fresh, added to salads, smoothies, or used in desserts.<br/>
@@ -483,34 +485,34 @@ const DietPage = () => {
       </div>
 
       <div className='my-6 w-full flex flex-col justify-center items-center'>
-        <h1 className='text-green-4 text-2xl font-semibold'>Quick links</h1>
+        <h1 className='text-green-4 text-2xl font-leagueSpartanMedium'>Quick links</h1>
         <div className='my-4'>
-          <p className='text-center my-2'>
-            <span className='text-green-4 font-medium mx-2'>Diet - General:</span>
+          <p className='text-center my-2 font-leagueSpartanRegular'>
+            <span className='text-green-4 font-leagueSpartanMedium mx-2'>Diet - General:</span>
             <Link className='mx-2 cursor-pointer hover:underline text-blue-400'>Telugu1</Link>
             <Link className='mx-2 cursor-pointer hover:underline text-blue-400'>Telugu2</Link>
             <Link className='mx-2 cursor-pointer hover:underline text-blue-400'>English</Link>
           </p>
 
           <p className='text-center my-2'>
-            <span className='text-green-4 font-medium mx-2'>Diet - Basics:</span>
+            <span className='text-green-4 font-leagueSpartanMedium mx-2'>Diet - Basics:</span>
             <Link className='mx-2 cursor-pointer hover:underline text-blue-400'>Telugu</Link>
             <Link className='mx-2 cursor-pointer hover:underline text-blue-400'>English</Link>
           </p>
 
           <p className='text-center my-2'>
-            <span className='text-green-4 font-medium mx-2'>Diet - Juices:</span>
+            <span className='text-green-4 font-leagueSpartanMedium mx-2'>Diet - Juices:</span>
             <Link className='mx-2 cursor-pointer hover:underline text-blue-400'>Telugu</Link>
             <Link className='mx-2 cursor-pointer hover:underline text-blue-400'>English</Link>
           </p>
 
           <p className='text-center my-2'>
-            <span className='text-green-4 font-medium mx-2'>Diet - Food:</span>
+            <span className='text-green-4 font-leagueSpartanMedium mx-2'>Diet - Food:</span>
             <Link className='mx-2 cursor-pointer hover:underline text-blue-400'>Telugu</Link>
             <Link className='mx-2 cursor-pointer hover:underline text-blue-400'>English</Link>
           </p>
         </div>
-        <p className='w-2/4 text-center font-medium text-sm'>For any health related queries, we have a volunteer team who may guide you appropriately.Please join our Telegram group using below icon.</p>
+        <p className='w-2/4 text-center font-leagueSpartanMedium text-sm'>For any health related queries, we have a volunteer team who may guide you appropriately.Please join our Telegram group using below icon.</p>
       </div>
 
       <div className="w-full h-12 flex justify-center items-center flex-row mt-8 text-3xl " >

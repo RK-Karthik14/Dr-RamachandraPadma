@@ -3,7 +3,7 @@ export const navItems = [
     // {label:"About\u00A0Us",href:"/about"},
     {label:"About",href:"/about"},
     {label:"Service",href:"/services"},
-    {label: "Diet", href:"/"},
+    {label: "Diet", href:"/diet"},
     {label:"Book Appointment",href:"/appointment"},
     {label:"Book Workshop", href:"/class"},
 ]

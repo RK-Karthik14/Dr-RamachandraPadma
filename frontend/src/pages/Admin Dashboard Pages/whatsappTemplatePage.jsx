@@ -3,7 +3,7 @@ import { whatsappTemplates } from '../../constants';
 
 const WhatsappTemplatePage = () => {
     return (
-        <div className='h-auto bg-gray-1 w-full p-10'>
+        <div className='h-auto bg-gray-1 w-full p-10 font-leagueSpartanRegular'>
             <form>
                 <div className='h-[600px] overflow-y-scroll grid grid-cols-3 gap-4 admin-scrollbar'>
                     {whatsappTemplates.map((msg, index) => (
